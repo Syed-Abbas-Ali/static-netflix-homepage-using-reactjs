@@ -1,0 +1,15 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color:  rgb(106, 104, 106);
+}
+
+
+

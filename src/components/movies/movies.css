@@ -1,0 +1,88 @@
+.movies{
+    width: 100%;
+    height:70vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-inline: 50px;
+    justify-content: space-between;
+}
+
+.left{
+    width:50%;
+    height: 67vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+    row-gap: 20px;
+    overflow-y:scroll;
+    z-index: 1;
+}
+
+
+
+.card{
+width:160px;
+height: 250px;
+position: relative;
+overflow: hidden;
+}
+.layer{
+    width:100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.7);
+    position:absolute;
+    top: -100%;
+    transition: 1s;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-block: 20px;
+}
+
+.card:hover .layer{
+    top:0%;
+    transition: 1s;
+    /* transition-delay: 2s; */
+}
+.picture{
+    width:100%;
+    height:100%;
+}
+
+.right{
+    width: 47%;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.right .mov-dis{
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.movie-detail{
+    width:100%;
+    position: absolute;
+    top: 1%;
+    padding-inline: 20px;
+    /* z-index: 1; */
+    /* background-color: rgb(0,0,0,0.6); */
+}
+
+.desc{
+    width:100%;
+    background-color: rgb(0,0,0,0.6);
+    color: aliceblue;
+    opacity: 0;
+    transition: .5s;
+}
+
+.right:hover .desc{
+    opacity: 1;
+}

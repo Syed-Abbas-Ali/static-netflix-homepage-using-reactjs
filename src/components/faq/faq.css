@@ -1,0 +1,99 @@
+.faq{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    padding-block: 80px;
+    gap:40px;
+}
+
+.faq h1{
+    font-size: 50px;
+    line-height: normal;
+    font-weight:bold;
+    color:#ffff;
+}
+
+.faq-con{
+    width:820px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.qas{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+}
+.question{
+display: flex;
+justify-content: space-between;
+padding-inline: 30px;
+background-color: #303030;
+padding-block: 20px 5px;
+}
+
+.question h2{
+    font-size: 30px;
+    line-height: normal;
+    font-weight:300;
+    color:#ffff;
+}
+.plus{
+ font: normal 100 45px normal;
+ transition: 1s;
+}
+
+.uplus{
+    font: normal 100 45px normal;
+    transform: rotate(-45deg);
+    transition: .5s;
+   
+}
+
+.ans{
+    max-height: 0;
+    overflow: hidden;
+    /* transition: .5s; */
+}
+
+.ans-active{
+    padding: 30px 25px;
+    background-color: #303030;
+    height: auto;
+    overflow: hidden;
+max-height: 9999px;
+transition: .2s;
+}
+.ans p{
+    font-size: 25px;
+}
+.ans-active p{
+    font-size: 25px;
+}
+
+
+
+.hero-middle-email{
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero-middle-email input{
+    width:500px;
+    height:65px;
+    padding-left: 20px;
+   
+}
+.hero-middle-email button{
+    width:220px;
+    height:65px;
+    font-size: 25px ;
+    background-color: #e50914;
+    border: none;
+}

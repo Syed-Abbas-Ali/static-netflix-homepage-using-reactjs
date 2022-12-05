@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.funtv{
+    width:100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 30px;
+    gap:100px;
+}
+
+.funtv-right{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.funtv-right h1{
+    font-size: 45px;
+}
+.funtv-right h2{
+    font-size: 26px;
+    font-weight: 180;
+}
+
+.funtv-left{
+    position: relative;
+}
+
+.funtv-left img{
+    width:530px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.funtv-left video{
+    width:384px;
+    height:240px;
+    position: absolute;
+    top: 18%;
+    left: 13.5%;
+
+
+}

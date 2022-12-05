@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.Look{
+    width:100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 30px;
+    gap:100px;
+}
+
+.Look-right{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.Look-right h1{
+    font-size: 45px;
+}
+.Look-right h2{
+    font-size: 26px;
+    font-weight: 180;
+}
+
+.Look-left{
+    position: relative;
+}
+
+.lookimg{
+    width:530px;
+    position: relative;
+    z-index:1;
+
+}
+
+.Look-left video{
+    width:320px;
+    height:200px;
+    position: absolute;
+    top: 10%;
+    left: 19.5%;
+    /* z-index: -1; */
+}
